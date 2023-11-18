@@ -21,7 +21,8 @@ class DatabaseSeeder extends Seeder
         $this->call([
             ProdiSeeder::class,
             MahasiswaSeeder::class,
-            GeneralSeeder::class
+            GeneralSeeder::class,
+            BookshelfSeeder::class
         ]);
     }
 }
